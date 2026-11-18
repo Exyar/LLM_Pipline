@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Registration</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            padding:30px;
+        }
+
+        .container{
+            max-width:800px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            text-align:center;
+            color:#7b0000;
+            margin-bottom:25px;
+        }
+
+        label{
+            font-weight:bold;
+            display:block;
+            margin-top:12px;
+        }
+
+        input,
+        select,
+        textarea{
+            width:100%;
+            padding:10px;
+            margin-top:5px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        .gender{
+            margin-top:8px;
+        }
+
+        .gender input{
+            width:auto;
+            margin-right:5px;
+        }
+
+        .buttons{
+            margin-top:20px;
+            text-align:center;
+        }
+
+        .btn{
+            background:#7b0000;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:5px;
+            cursor:pointer;
+            margin:5px;
+            font-size:16px;
+        }
+
+        .btn:hover{
+            background:#a00000;
+        }
+
+        @media(max-width:768px){
+            .container{
+                padding:20px;
+            }
+
+            .btn{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Teacher Registration Form</h2>
+
+    <form>
+
+        <label>Teacher ID</label>
+        <input type="text" placeholder="Enter Teacher ID">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Full Name">
+
+        <label>Gender</label>
+        <div class="gender">
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+        </div>
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter Email">
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter Mobile Number">
+
+        <label>Address</label>
+        <textarea rows="4" placeholder="Enter Address"></textarea>
+
+        <label>Department</label>
+        <select>
+            <option>Select Department</option>
+            <option>Computer Science</option>
+            <option>Artificial Intelligence</option>
+            <option>Information Technology</option>
+            <option>Electrical Engineering</option>
+            <option>Commerce</option>
+        </select>
+
+        <label>Subject</label>
+        <input type="text" placeholder="Enter Subject">
+
+        <label>Qualification</label>
+        <input type="text" placeholder="Enter Qualification">
+
+        <label>Experience (Years)</label>
+        <input type="number" placeholder="Enter Experience">
+
+        <label>Date of Joining</label>
+        <input type="date">
+
+        <label>Salary</label>
+        <input type="number" placeholder="Enter Salary">
+
+        <label>Upload Photo</label>
+        <input type="file">
+
+        <label>Password</label>
+        <input type="password" placeholder="Create Password">
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password">
+
+        <div class="buttons">
+            <button type="submit" class="btn">Register</button>
+            <button type="reset" class="btn">Clear</button>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,25 @@
+h3{
+  color:blue;
+}
+h1{
+  color:rgb(142, 0, 0);
+}
+p{
+  color:rgb(97, 0, 167);
+}
+button{
+  color:peru;
+  background-color: darkviolet;
+}
+body{
+  background-color: #000000;
+}
+h4{
+  color: aqua;
+}
+#heading1 {
+color: blanchedalmond;
+}
+.myclass{
+  color: chartreuse 
+}

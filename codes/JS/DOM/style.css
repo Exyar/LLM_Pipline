@@ -1,0 +1,35 @@
+/* #heading{
+    color: blue;
+    text-decoration: line-through;
+    background-color: bisque;
+}
+body{
+    background-color: darkgray;
+}
+.myclass{
+    background-color: brown;
+    
+} */
+
+
+
+/* style */
+/* 
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    color: white;
+    border: 1px solid black;
+}
+ */
+
+ /* insert */
+
+#boxi{
+    height: 200px;
+    width: 100px;
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid black;
+}

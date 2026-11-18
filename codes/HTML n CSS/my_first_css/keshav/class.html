@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Results</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            padding:30px;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            text-align:center;
+            color:#7b0000;
+            margin-bottom:25px;
+        }
+
+        label{
+            font-weight:bold;
+            display:block;
+            margin-top:12px;
+        }
+
+        input,
+        select{
+            width:100%;
+            padding:10px;
+            margin-top:5px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        .buttons{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        .btn{
+            background:#7b0000;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:5px;
+            cursor:pointer;
+            margin:5px;
+            font-size:16px;
+        }
+
+        .btn:hover{
+            background:#a00000;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:30px;
+        }
+
+        table th,
+        table td{
+            border:1px solid #ddd;
+            padding:10px;
+            text-align:center;
+        }
+
+        table th{
+            background:#7b0000;
+            color:white;
+        }
+
+        @media(max-width:768px){
+            .container{
+                padding:20px;
+            }
+
+            .btn{
+                width:100%;
+            }
+
+            table{
+                display:block;
+                overflow-x:auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Class Results Management</h2>
+
+    <form>
+
+        <label>Student ID</label>
+        <input type="text" placeholder="Enter Student ID">
+
+        <label>Student Name</label>
+        <input type="text" placeholder="Enter Student Name">
+
+        <label>Course</label>
+        <select>
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>B.Tech</option>
+            <option>BBA</option>
+            <option>B.Com</option>
+            <option>B.Sc</option>
+        </select>
+
+        <label>Semester</label>
+        <select>
+            <option>Select Semester</option>
+            <option>Semester 1</option>
+            <option>Semester 2</option>
+            <option>Semester 3</option>
+            <option>Semester 4</option>
+            <option>Semester 5</option>
+            <option>Semester 6</option>
+        </select>
+
+        <label>Total Marks</label>
+        <input type="number" placeholder="Enter Total Marks">
+
+        <label>Obtained Marks</label>
+        <input type="number" placeholder="Enter Obtained Marks">
+
+        <label>Percentage</label>
+        <input type="number" placeholder="Enter Percentage">
+
+        <label>Grade</label>
+        <input type="text" placeholder="Enter Grade">
+
+        <div class="buttons">
+            <button type="submit" class="btn">Add Result</button>
+            <button type="reset" class="btn">Clear</button>
+        </div>
+
+    </form>
+
+    <table>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Semester</th>
+            <th>Marks</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Rahul Sharma</td>
+            <td>BCA</td>
+            <td>2</td>
+            <td>450/500</td>
+            <td>90%</td>
+            <td>A+</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Priya Verma</td>
+            <td>B.Tech</td>
+            <td>4</td>
+            <td>420/500</td>
+            <td>84%</td>
+            <td>A</td>
+            <td>Pass</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Aman Singh</td>
+            <td>BBA</td>
+            <td>1</td>
+            <td>375/500</td>
+            <td>75%</td>
+            <td>B+</td>
+            <td>Pass</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>

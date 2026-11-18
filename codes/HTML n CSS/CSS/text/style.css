@@ -1,0 +1,34 @@
+p{
+  text-align: start;
+}
+#a {
+  font-weight: normal;
+}
+#b{
+  font-weight: lighter;
+}
+#c{
+  font-weight: 700;
+}
+#d{
+  font-weight: 100;
+}
+a{
+  text-decoration: none;
+}
+#one{
+  font-family: comic sans MS,Arial, Helvetica, sans-serif;
+}
+#two{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif   ;
+}
+#jkj{
+  font-size: 30px;
+}
+#threee{
+  font-size: 10px;
+}
+#pos{
+  line-height: 40px;
+  text-transform: uppercase;
+}

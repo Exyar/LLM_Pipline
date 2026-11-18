@@ -1,0 +1,93 @@
+body{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-color: rgb(50, 50, 50);
+    
+}
+.area{
+    border-radius: 5%;
+    margin: auto;
+    height: 35rem;
+    width: 23rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:end;
+    background-image: linear-gradient(45deg,rgb(29, 29, 29),rgb(133, 132, 132));
+    box-shadow: -4px 4px 8px 3px rgba(0, 0, 0, 1);
+}
+
+.screen{
+    /* padding-top: 1rem; */
+    width: 20rem;
+    height: 5rem;
+    text-align: right;
+    
+    border: none;
+    border-radius: 3rem;
+    color:rgb(178, 211, 178);
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+     text-shadow: 
+    0 0 4px white,
+    0 0 20px white,  /* Neon Green */
+    0 0 40px white,  /* Intense inner glow */
+    0 0 50px white,  /* Medium ambient glow */
+    0 0 70px white;
+}
+
+.line{
+    /* height: 2px; */
+    width: 20rem;
+    border: 0.5px solid rgb(201, 200, 200);
+    box-shadow: -1.5px 2px 2px 0px black;
+     /* text-shadow: 
+    10px 0 4px #fff,
+    10px 0 10px rgb(201, 200, 200), 
+    0 0 20px rgb(201, 200, 200),  
+    0 0 30px rgb(201, 200, 200),  
+    10px 0 40px rgb(201, 200, 200);  */
+}
+
+
+.buttons{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    /* align-items: center; */
+    gap: 0.5rem;
+    padding-bottom: 0.5rem ;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.button{
+    height: 5rem;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    color:rgb(170, 237, 170) ;
+    background-image: linear-gradient(45deg,black,rgb(29, 29, 29),rgb(54, 54, 54),rgb(72, 72, 72),grey,rgb(174, 174, 174),rgb(230, 229, 229));
+    box-shadow: inset 7px -7px 6px rgba(0, 0, 0, 1);
+    font-size: 1.8rem;
+    font-family: Courier New;
+    text-shadow: 
+    0 0 4px #fff,
+    0 0 10px #39ff14,  /* Neon Green */
+    0 0 20px #39ff14,  /* Intense inner glow */
+    0 0 30px #1dbc13,  /* Medium ambient glow */
+    0 0 40px #1dbc13;  /* Wide background glow */
+
+}
+
+.button:active{
+    background-image: none;
+    background-color: rgb(53, 53, 53);
+}

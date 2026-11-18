@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Salary Management</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            padding:30px;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            text-align:center;
+            color:#7b0000;
+            margin-bottom:25px;
+        }
+
+        label{
+            font-weight:bold;
+            display:block;
+            margin-top:12px;
+        }
+
+        input,
+        select{
+            width:100%;
+            padding:10px;
+            margin-top:5px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        .buttons{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        .btn{
+            background:#7b0000;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:5px;
+            cursor:pointer;
+            margin:5px;
+            font-size:16px;
+        }
+
+        .btn:hover{
+            background:#a00000;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:30px;
+        }
+
+        table th,
+        table td{
+            border:1px solid #ddd;
+            padding:10px;
+            text-align:center;
+        }
+
+        table th{
+            background:#7b0000;
+            color:white;
+        }
+
+        @media(max-width:768px){
+            .container{
+                padding:20px;
+            }
+
+            .btn{
+                width:100%;
+            }
+
+            table{
+                display:block;
+                overflow-x:auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Teacher Salary Management</h2>
+
+    <form>
+
+        <label>Teacher ID</label>
+        <input type="text" placeholder="Enter Teacher ID">
+
+        <label>Teacher Name</label>
+        <input type="text" placeholder="Enter Teacher Name">
+
+        <label>Department</label>
+        <select>
+            <option>Select Department</option>
+            <option>Computer Science</option>
+            <option>Artificial Intelligence</option>
+            <option>Information Technology</option>
+            <option>Commerce</option>
+            <option>Electrical Engineering</option>
+        </select>
+
+        <label>Month</label>
+        <input type="month">
+
+        <label>Basic Salary (₹)</label>
+        <input type="number" placeholder="Enter Basic Salary">
+
+        <label>Bonus (₹)</label>
+        <input type="number" placeholder="Enter Bonus">
+
+        <label>Deductions (₹)</label>
+        <input type="number" placeholder="Enter Deductions">
+
+        <label>Net Salary (₹)</label>
+        <input type="number" placeholder="Enter Net Salary">
+
+        <div class="buttons">
+            <button type="submit" class="btn">Save Salary</button>
+            <button type="reset" class="btn">Clear</button>
+        </div>
+
+    </form>
+
+    <table>
+        <tr>
+            <th>Teacher ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Month</th>
+            <th>Basic Salary</th>
+            <th>Bonus</th>
+            <th>Deductions</th>
+            <th>Net Salary</th>
+        </tr>
+
+        <tr>
+            <td>T101</td>
+            <td>Dr. Raj Sharma</td>
+            <td>Computer Science</td>
+            <td>June 2026</td>
+            <td>₹50,000</td>
+            <td>₹5,000</td>
+            <td>₹2,000</td>
+            <td>₹53,000</td>
+        </tr>
+
+        <tr>
+            <td>T102</td>
+            <td>Prof. Neha Verma</td>
+            <td>Artificial Intelligence</td>
+            <td>June 2026</td>
+            <td>₹55,000</td>
+            <td>₹4,000</td>
+            <td>₹1,500</td>
+            <td>₹57,500</td>
+        </tr>
+        <tr>
+            <td>T103</td>
+            <td>Mr. Amit Singh</td>
+            <td>Information Technology</td>
+            <td>June 2026</td>
+            <td>₹48,000</td>
+            <td>₹3,000</td>
+            <td>₹1,000</td>
+            <td>₹50,000</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
